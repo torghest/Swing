@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="l_fx_alta" alignment="0" max="32767" attributes="0"/>
+                          <Component id="l_emp_no" alignment="0" max="32767" attributes="0"/>
+                          <Component id="l_apellido" alignment="0" max="32767" attributes="0"/>
+                          <Component id="l_oficio" alignment="0" max="32767" attributes="0"/>
+                          <Component id="l_dir" alignment="0" max="32767" attributes="0"/>
+                          <Component id="l_salario" alignment="0" max="32767" attributes="0"/>
+                          <Component id="l_comision" alignment="0" max="32767" attributes="0"/>
+                          <Component id="l_dept_no" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="d_emp_no" alignment="0" max="32767" attributes="0"/>
+                          <Component id="d_apellido" alignment="0" max="32767" attributes="0"/>
+                          <Component id="d_oficio" alignment="0" max="32767" attributes="0"/>
+                          <Component id="d_dir" alignment="0" max="32767" attributes="0"/>
+                          <Component id="d_fx_alta" alignment="0" max="32767" attributes="0"/>
+                          <Component id="d_salario" alignment="0" max="32767" attributes="0"/>
+                          <Component id="d_comision" alignment="0" max="32767" attributes="0"/>
+                          <Component id="d_dept_no" alignment="0" pref="115" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="l_res" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="l_emp_no" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="d_emp_no" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="l_apellido" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="d_apellido" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="l_oficio" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="d_oficio" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="l_dir" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="d_dir" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="l_fx_alta" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="d_fx_alta" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="l_salario" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="d_salario" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="l_comision" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="d_comision" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="l_dept_no" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="d_dept_no" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="l_res" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="l_emp_no">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Emp. N&#xba;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="l_apellido">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Apellido:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="l_oficio">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Oficio:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="l_dir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dir:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="l_fx_alta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fecha Alta:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="l_salario">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salario:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="l_comision">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Comisi&#xf3;n:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="l_dept_no">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dept. N&#xba;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="d_fx_alta">
+    </Component>
+    <Component class="javax.swing.JTextField" name="d_emp_no">
+    </Component>
+    <Component class="javax.swing.JTextField" name="d_apellido">
+    </Component>
+    <Component class="javax.swing.JTextField" name="d_oficio">
+    </Component>
+    <Component class="javax.swing.JTextField" name="d_dir">
+    </Component>
+    <Component class="javax.swing.JTextField" name="d_salario">
+    </Component>
+    <Component class="javax.swing.JTextField" name="d_comision">
+    </Component>
+    <Component class="javax.swing.JTextField" name="d_dept_no">
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Insertar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="l_res">
+    </Component>
+  </SubComponents>
+</Form>
